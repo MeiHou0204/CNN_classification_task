@@ -1,13 +1,20 @@
-# CNN_classification_task
-Convolutional Neural Network for Figure Classification in Pytorch
-- # DataSet
+# CNN Architectures Benchmark: LeNet, AlexNet, GoogLeNet, ResNet
+
+This repository serves as a comprehensive benchmark for pioneering CNN architectures, implemented and evaluated on the Fashion-MNIST dataset. Our key achievement highlights the power of deep residual learning, where the ResNet model achieved a state-of-the-art test accuracy of 90.8%, coupled with a near-perfect training accuracy of 99.7%.
+
+- ## Highlights:
+- Implemented a timeline of influential CNNs: from LeNet to ResNet.
+- Rigorous benchmarking on Fashion-MNIST.
+- ResNet outperformed others, achieving 90.8% test accuracy.
+
+- ## DataSet
 - Fashion-MNIST contain `70k` figures, this dataset default set `60k` figures as training set, the rest `10k` as test set.
 
 - Each figure is a 28 * 28 pixel object, we may reshape it size to 224 * 224 pixel.
 
 - All `70k` figures belong to `10` classification, including T-shirt/top, Trouser, Pullover, Dress, Coat, Sandal, Shirt,Sneaker, Bag, Ankle boot.
 
-- # CNN model performance
+- ## CNN model performance
 |   Model   | train loss | train accuracy | test accuracy |
 | :-------: | :--------: | :------------: | :-----------: |
 |   LeNet   | 0.474    | 0.822  | 0.799 |
